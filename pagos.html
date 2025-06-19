@@ -1,0 +1,1 @@
+<h2>Pagos</h2><form method='POST'><input name='monto'><button>Agregar</button></form><ul>{% for p in pagos %}<li>{{ p[1] }} - ${{ p[0] }}</li>{% endfor %}</ul><a href='/facturas'>Volver</a>
